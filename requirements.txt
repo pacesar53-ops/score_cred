@@ -1,14 +1,4 @@
-#streamlit
-#pandas
-#joblib
-#scikit-learn==1.6.1
-#xgboost
-
-
-# Dependencias adicionales para mejor rendimiento
-#numpy>=1.24.0
-
-# requirements.txt - VERSIÓN PROBADA
+# Dependencias principales
 streamlit==1.28.0
 pandas==2.0.3
 joblib==1.3.2
@@ -16,3 +6,7 @@ scikit-learn==1.3.2
 xgboost==1.7.6
 numpy==1.24.3
 plotly==5.18.0
+
+# Dependencias de compatibilidad
+setuptools==69.0.0
+packaging==23.2
