@@ -204,8 +204,8 @@ ejemplo_entrada = artefacto["ejemplo_entrada"]
 umbral_decision = artefacto.get("umbral_decision", 0.5)
 
 # ==================== INTERFAZ PRINCIPAL ====================
-st.title("💳 Sistema de Evaluación de Riesgo Crediticio")
-st.markdown("Evaluación de riesgo crediticio en tiempo real con XGBoost optimizado.")
+st.title("💳 Sistema de Evaluación de Crédito")
+st.markdown("Evaluación de riesgo crediticio en tiempo real")
 
 # ==================== INPUTS DEL USUARIO ====================
 st.subheader("👤 Datos del Solicitante")
